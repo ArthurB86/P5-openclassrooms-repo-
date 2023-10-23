@@ -353,4 +353,7 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
+img{
+	width: 100%;
+	height: auto;
+}
