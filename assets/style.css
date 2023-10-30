@@ -2,6 +2,7 @@
 	font-family: 'Inter';
 	src:  url('./transfonter.org-20231026-142716/Inter-Regular.woff2') format('woff2'),
 		  url('./transfonter.org-20231026-142716/Inter-Regular.woff') format('woff');
+		  font-display: swap;
   }
   @font-face {
 	font-family: 'Spectral';
@@ -10,13 +11,14 @@
 	src: url('./transfonter.org-20231026-142716/Spectral-Light.woff2') format('woff2');
 	src: url('./transfonter.org-20231026-142716/Spectral-LightItalic.woff2') format('woff2');
 	src: url('./transfonter.org-20231026-142716/Spectral-Regular.woff2') format('woff2');
+	font-display: swap;
   }
   body {
 	max-width: 1920px;
 	margin: auto;
 }
 *{
-	font-family: 'Inter';
+font-family: 'Inter';
 	font-style: normal;
 }
 
@@ -117,7 +119,7 @@
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: black;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -371,4 +373,10 @@ input[type="submit"] {
 img{
 	width: 100%;
 	height: auto;
+}
+.contact-snipet{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
