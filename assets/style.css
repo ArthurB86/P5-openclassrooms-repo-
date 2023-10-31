@@ -1,18 +1,89 @@
 @font-face {
-	font-family: 'Inter';
-	src:  url('./transfonter.org-20231026-142716/Inter-Regular.woff2') format('woff2'),
-		  url('./transfonter.org-20231026-142716/Inter-Regular.woff') format('woff');
-		  font-display: swap;
-  }
+    font-family: 'Inter';
+    src: url('./transfonter.org-20231026-142716/Inter-Regular.eot');
+    src: url('./transfonter.org-20231026-142716/Inter-Regular.eot') format('embedded-opentype'),
+        url('./transfonter.org-20231026-142716/Inter-Regular.woff2') format('woff2'),
+        url('./transfonter.org-20231026-142716/Inter-Regular.woff') format('woff'),
+        url('./transfonter.org-20231026-142716/Inter-Regular.ttf') format('truetype'),
+        url('./transfonter.org-20231026-142716/Inter-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
   @font-face {
-	font-family: 'Spectral';
-	src: url('./transfonter.org-20231026-142716/Spectral-ExtraBold.woff2') format('woff2');
-	src: url('./transfonter.org-20231026-142716/Spectral-ExtraBoldItalic.woff2') format('woff2');
-	src: url('./transfonter.org-20231026-142716/Spectral-Light.woff2') format('woff2');
-	src: url('./transfonter.org-20231026-142716/Spectral-LightItalic.woff2') format('woff2');
-	src: url('./transfonter.org-20231026-142716/Spectral-Regular.woff2') format('woff2');
-	font-display: swap;
-  }
+    font-family: 'Spectral';
+    src: url('./transfonter.org-20231026-142716/Spectral-Italic.eot');
+    src: url('./transfonter.org-20231026-142716/Spectral-Italic.eot') format('embedded-opentype'),
+        url('./transfonter.org-20231026-142716/Spectral-Italic.woff2') format('woff2'),
+        url('./transfonter.org-20231026-142716/Spectral-Italic.woff') format('woff'),
+        url('./transfonter.org-20231026-142716/Spectral-Italic.ttf') format('truetype'),
+        url('./transfonter.org-20231026-142716/Spectral-Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Spectral';
+    src: url('./transfonter.org-20231026-142716/Spectral-ExtraBold.eot');
+    src: url('./transfonter.org-20231026-142716/Spectral-ExtraBold.eot') format('embedded-opentype'),
+        url('./transfonter.org-20231026-142716/Spectral-ExtraBold.woff2') format('woff2'),
+        url('./transfonter.org-20231026-142716/Spectral-ExtraBold.woff') format('woff'),
+        url('./transfonter.org-20231026-142716/Spectral-ExtraBold.ttf') format('truetype'),
+        url('./transfonter.org-20231026-142716/Spectral-ExtraBold.svg') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Spectral';
+    src: url('./transfonter.org-20231026-142716/Spectral-Light.eot');
+    src: url('./transfonter.org-20231026-142716/Spectral-Light.eot') format('embedded-opentype'),
+        url('./transfonter.org-20231026-142716/Spectral-Light.woff2') format('woff2'),
+        url('./transfonter.org-20231026-142716/Spectral-Light.woff') format('woff'),
+        url('./transfonter.org-20231026-142716/Spectral-Light.ttf') format('truetype'),
+        url('./transfonter.org-20231026-142716/Spectral-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Spectral';
+    src: url('./transfonter.org-20231026-142716/Spectral-LightItalic.eot');
+    src: url('./transfonter.org-20231026-142716/Spectral-LightItalic.eot') format('embedded-opentype'),
+        url('./transfonter.org-20231026-142716/Spectral-LightItalic.woff2') format('woff2'),
+        url('./transfonter.org-20231026-142716/Spectral-LightItalic.woff') format('woff'),
+        url('./transfonter.org-20231026-142716/Spectral-LightItalic.ttf') format('truetype'),
+        url('./transfonter.org-20231026-142716/Spectral-LightItalic.svg') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Spectral';
+    src: url('./transfonter.org-20231026-142716/Spectral-Regular.eot');
+    src: url('./transfonter.org-20231026-142716/Spectral-Regular.eot') format('embedded-opentype'),
+        url('./transfonter.org-20231026-142716/Spectral-Regular.woff2') format('woff2'),
+        url('./transfonter.org-20231026-142716/Spectral-Regular.woff') format('woff'),
+        url('./transfonter.org-20231026-142716/Spectral-Regular.ttf') format('truetype'),
+        url('./transfonter.org-20231026-142716/Spectral-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Spectral';
+    src: url('./transfonter.org-20231026-142716/Spectral-ExtraBoldItalic.eot');
+    src: url('./transfonter.org-20231026-142716/Spectral-ExtraBoldItalic.eot') format('embedded-opentype'),
+        url('./transfonter.org-20231026-142716/Spectral-ExtraBoldItalic.woff2') format('woff2'),
+        url('./transfonter.org-20231026-142716/Spectral-ExtraBoldItalic.woff') format('woff'),
+        url('./transfonter.org-20231026-142716/Spectral-ExtraBoldItalic.ttf') format('truetype'),
+        url('./transfonter.org-20231026-142716/Spectral-ExtraBoldItalic.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
   body {
 	max-width: 1920px;
 	margin: auto;
